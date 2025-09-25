@@ -13,3 +13,5 @@ Receive personalized coaching and feedback through a built-in NutriCoach powered
 Monitor progress with an intuitive dashboard and engaging UI.
 
 This project combines mobile app development, API integration, and AI-driven personalization to create a practical tool for everyday health management.
+
+> **Please insert your API key in the GenAIViewModel.kt for NutriCoach feature to work**
