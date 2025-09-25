@@ -1,4 +1,4 @@
-package com.fit2081.aditya_33520070.nutritrack.data
+package com.app.app.nutritrack.data
 
 import android.content.Context
 import androidx.lifecycle.LiveData
@@ -47,7 +47,7 @@ class GenAIViewModel(context: Context): ViewModel() {
     val tips = _tips
 
     fun getAllTips(context: Context, user: User): LiveData<List<CoachTip>> {
-        val db = AppDatabase.getDatabase(context)
+        val db = AppDatabase.Companion.getDatabase(context)
         return db.TipsDao().getAllTips(user.userID) // This must return LiveData<List<CoachTip>>
     }
 
@@ -96,8 +96,8 @@ class GenAIViewModel(context: Context): ViewModel() {
     }
 
     fun saveTip(userID: String, tip: String, context: Context){
-        val tip = CoachTip(userID = userID, tip = tip )
-        val appDataBase = AppDatabase.getDatabase(context)
+        val tip = CoachTip(userID = userID, tip = tip)
+        val appDataBase = AppDatabase.Companion.getDatabase(context)
         viewModelScope.launch(Dispatchers.IO) {
             appDataBase.TipsDao().insertTip(tip)
         }

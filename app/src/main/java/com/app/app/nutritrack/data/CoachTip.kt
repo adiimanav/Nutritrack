@@ -1,4 +1,4 @@
-package com.fit2081.aditya_33520070.nutritrack.data
+package com.app.app.nutritrack.data
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

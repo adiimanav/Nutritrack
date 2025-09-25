@@ -1,6 +1,5 @@
-package com.fit2081.aditya_33520070.nutritrack.ui.theme
+package com.app.app.nutritrack.ui.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme

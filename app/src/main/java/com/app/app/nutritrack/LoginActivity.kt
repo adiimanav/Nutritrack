@@ -1,4 +1,4 @@
-package com.fit2081.aditya_33520070.nutritrack
+package com.app.app.nutritrack
 
 import android.content.Context
 import android.content.Intent
@@ -33,8 +33,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.graphics.Color
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.fit2081.aditya_33520070.nutritrack.data.UserViewModel
-import com.fit2081.aditya_33520070.nutritrack.ui.theme.NutritrackTheme
+import com.app.app.nutritrack.data.UserViewModel
+import com.app.app.nutritrack.ui.theme.NutritrackTheme
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

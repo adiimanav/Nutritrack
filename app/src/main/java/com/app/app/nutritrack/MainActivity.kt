@@ -1,4 +1,4 @@
-package com.fit2081.aditya_33520070.nutritrack
+package com.app.app.nutritrack
 
 import android.content.Intent
 import android.os.Bundle
@@ -32,9 +32,10 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.lifecycleScope
-import com.fit2081.aditya_33520070.nutritrack.data.CsvImporter
-import com.fit2081.aditya_33520070.nutritrack.data.UserRepository
-import com.fit2081.aditya_33520070.nutritrack.ui.theme.NutritrackTheme
+import com.fit2081.aditya_33520070.nutritrack.R
+import com.app.app.nutritrack.data.CsvImporter
+import com.app.app.nutritrack.data.UserRepository
+import com.app.app.nutritrack.ui.theme.NutritrackTheme
 import kotlinx.coroutines.launch
 
 class MainActivity : ComponentActivity() {

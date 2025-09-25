@@ -1,4 +1,4 @@
-package com.fit2081.aditya_33520070.nutritrack.data
+package com.app.app.nutritrack.data
 
 import android.content.Context
 import kotlinx.coroutines.Dispatchers
@@ -29,22 +29,38 @@ object CsvImporter {
                     phoneNumber = columns[0].trim(),
                     sex = sex,
                     name = "",
-                    HEIFATotalScore = columns.getOrNull(headers.indexOf("HEIFAtotalscore$checkGender"))?.toFloatOrNull(),
-                    DiscretionaryHEIFAScore = columns.getOrNull(headers.indexOf("DiscretionaryHEIFAscore$checkGender"))?.toFloatOrNull(),
-                    VegetablesHEIFAScore = columns.getOrNull(headers.indexOf("VegetablesHEIFAscore$checkGender"))?.toFloatOrNull(),
-                    VegetablesVariationsScore = columns.getOrNull(headers.indexOf("Vegetablesvariationsscore"))?.toFloatOrNull(),
-                    FruitHEIFAScore = columns.getOrNull(headers.indexOf("FruitHEIFAscore$checkGender"))?.toFloatOrNull(),
-                    FruitVariationsScore = columns.getOrNull(headers.indexOf("Fruitvariationsscore"))?.toFloatOrNull(),
-                    GrainsAndCerealsHEIFAScore = columns.getOrNull(headers.indexOf("GrainsandcerealsHEIFAscore$checkGender"))?.toFloatOrNull(),
-                    WholeGrainsAndCerealsHEIFAScore = columns.getOrNull(headers.indexOf("WholegrainsHEIFAscore$checkGender"))?.toFloatOrNull(),
-                    MeatAndAlternativesHEIFAScore = columns.getOrNull(headers.indexOf("MeatandalternativesHEIFAscore$checkGender"))?.toFloatOrNull(),
-                    DairyAndAlternativesHEIFAScore = columns.getOrNull(headers.indexOf("DairyandalternativesHEIFAscore$checkGender"))?.toFloatOrNull(),
-                    SodiumHEIFAScore = columns.getOrNull(headers.indexOf("SodiumHEIFAscore$checkGender"))?.toFloatOrNull(),
-                    AlcoholHEIFAScore = columns.getOrNull(headers.indexOf("AlcoholHEIFAscore$checkGender"))?.toFloatOrNull(),
-                    WaterHEIFAScore = columns.getOrNull(headers.indexOf("WaterHEIFAscore$checkGender"))?.toFloatOrNull(),
-                    SugarHEIFAScore = columns.getOrNull(headers.indexOf("SugarHEIFAscore$checkGender"))?.toFloatOrNull(),
-                    SaturatedFatHEIFAScore = columns.getOrNull(headers.indexOf("SaturatedFatHEIFAscore$checkGender"))?.toFloatOrNull(),
-                    UnsaturatedFatHEIFAScore = columns.getOrNull(headers.indexOf("UnsaturatedFatHEIFAscore$checkGender"))?.toFloatOrNull(),
+                    HEIFATotalScore = columns.getOrNull(headers.indexOf("HEIFAtotalscore$checkGender"))
+                        ?.toFloatOrNull(),
+                    DiscretionaryHEIFAScore = columns.getOrNull(headers.indexOf("DiscretionaryHEIFAscore$checkGender"))
+                        ?.toFloatOrNull(),
+                    VegetablesHEIFAScore = columns.getOrNull(headers.indexOf("VegetablesHEIFAscore$checkGender"))
+                        ?.toFloatOrNull(),
+                    VegetablesVariationsScore = columns.getOrNull(headers.indexOf("Vegetablesvariationsscore"))
+                        ?.toFloatOrNull(),
+                    FruitHEIFAScore = columns.getOrNull(headers.indexOf("FruitHEIFAscore$checkGender"))
+                        ?.toFloatOrNull(),
+                    FruitVariationsScore = columns.getOrNull(headers.indexOf("Fruitvariationsscore"))
+                        ?.toFloatOrNull(),
+                    GrainsAndCerealsHEIFAScore = columns.getOrNull(headers.indexOf("GrainsandcerealsHEIFAscore$checkGender"))
+                        ?.toFloatOrNull(),
+                    WholeGrainsAndCerealsHEIFAScore = columns.getOrNull(headers.indexOf("WholegrainsHEIFAscore$checkGender"))
+                        ?.toFloatOrNull(),
+                    MeatAndAlternativesHEIFAScore = columns.getOrNull(headers.indexOf("MeatandalternativesHEIFAscore$checkGender"))
+                        ?.toFloatOrNull(),
+                    DairyAndAlternativesHEIFAScore = columns.getOrNull(headers.indexOf("DairyandalternativesHEIFAscore$checkGender"))
+                        ?.toFloatOrNull(),
+                    SodiumHEIFAScore = columns.getOrNull(headers.indexOf("SodiumHEIFAscore$checkGender"))
+                        ?.toFloatOrNull(),
+                    AlcoholHEIFAScore = columns.getOrNull(headers.indexOf("AlcoholHEIFAscore$checkGender"))
+                        ?.toFloatOrNull(),
+                    WaterHEIFAScore = columns.getOrNull(headers.indexOf("WaterHEIFAscore$checkGender"))
+                        ?.toFloatOrNull(),
+                    SugarHEIFAScore = columns.getOrNull(headers.indexOf("SugarHEIFAscore$checkGender"))
+                        ?.toFloatOrNull(),
+                    SaturatedFatHEIFAScore = columns.getOrNull(headers.indexOf("SaturatedFatHEIFAscore$checkGender"))
+                        ?.toFloatOrNull(),
+                    UnsaturatedFatHEIFAScore = columns.getOrNull(headers.indexOf("UnsaturatedFatHEIFAscore$checkGender"))
+                        ?.toFloatOrNull(),
                     password = null
                 )
                 users.add(user)

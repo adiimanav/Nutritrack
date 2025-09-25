@@ -1,4 +1,4 @@
-package com.fit2081.aditya_33520070.nutritrack.ui.theme
+package com.app.app.nutritrack.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

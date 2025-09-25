@@ -1,4 +1,4 @@
-package com.fit2081.aditya_33520070.nutritrack.data.network
+package com.app.app.nutritrack.data.network
 
 import retrofit2.Retrofit
 import retrofit2.http.GET

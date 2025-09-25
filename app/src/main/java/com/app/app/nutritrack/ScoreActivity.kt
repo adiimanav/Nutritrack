@@ -1,4 +1,4 @@
-package com.fit2081.aditya_33520070.nutritrack
+package com.app.app.nutritrack
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -50,18 +50,16 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.fit2081.aditya_33520070.nutritrack.ui.theme.NutritrackTheme
+import com.app.app.nutritrack.ui.theme.NutritrackTheme
 import kotlin.jvm.java
 import android.util.Log
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.width
-import androidx.compose.material.icons.automirrored.filled.ExitToApp
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.ExitToApp
 import androidx.compose.material.icons.filled.Lock
 import androidx.compose.material.icons.filled.Person
 import androidx.compose.material.icons.filled.Phone
-import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.OutlinedTextField
@@ -71,13 +69,14 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.fit2081.aditya_33520070.nutritrack.data.CoachTipViewModel
-import com.fit2081.aditya_33520070.nutritrack.data.FruitsRepository
-import com.fit2081.aditya_33520070.nutritrack.data.GenAIState
-import com.fit2081.aditya_33520070.nutritrack.data.GenAIViewModel
-import com.fit2081.aditya_33520070.nutritrack.data.User
-import com.fit2081.aditya_33520070.nutritrack.data.UserViewModel
-import com.fit2081.aditya_33520070.nutritrack.data.network.FruityViceResponseModel
+import com.app.app.nutritrack.data.CoachTipViewModel
+import com.app.app.nutritrack.data.FruitsRepository
+import com.app.app.nutritrack.data.GenAIState
+import com.app.app.nutritrack.data.GenAIViewModel
+import com.fit2081.aditya_33520070.nutritrack.R
+import com.app.app.nutritrack.data.User
+import com.app.app.nutritrack.data.UserViewModel
+import com.app.app.nutritrack.data.network.FruityViceResponseModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

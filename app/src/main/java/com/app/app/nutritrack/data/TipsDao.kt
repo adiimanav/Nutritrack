@@ -1,10 +1,11 @@
-package com.fit2081.aditya_33520070.nutritrack.data
+package com.app.app.nutritrack.data
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
+
 @Dao
 interface TipsDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
